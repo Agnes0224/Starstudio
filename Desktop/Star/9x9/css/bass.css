@@ -1,0 +1,25 @@
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    width: 1358px;
+    height: 961px;
+}
+
+input{
+    outline: none;
+}

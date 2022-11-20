@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bass.css">
+    <link rel="stylesheet" href="./css/introduce.css">
+    <link rel="stylesheet" href="./css/comment.css">
+    <link rel="stylesheet" href="./css/tictactoe.css">
+</head>
+<body>
+    <div id="whole"></div>
+    <div class="login w">
+        <div class="headline"><span>Login</span></div>
+        <div class="logFrame"><img src="./img/7.jpg" alt=""></div>
+        <div class="loginForm">
+            <input type="text" name="username" placeholder="username" class="input-item">
+            <input type="password" name="password" placeholder="password" class="input-item">
+        </div>
+        <div class="btn">
+            <li><input type="button" class="log" value="Log in"></li>
+            <li><input type="button" class="sign" value="Sign in"></li>
+        </div>
+    </div>
+
+    <div class="nav w">
+        <ul class="serves">
+            <li>
+                <a href=""><span class="first">Agnes</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><span class="choose">Myself</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><span>Pictures</span></a>
+            </li>
+            <li class="drop">
+                <a href="javascript:;"><span>Diary</span></a>
+                <div class="new">
+                    <ul>
+                        <li><a href="#text"><span>新建</span></a></li>
+                        <li><a href="#date"><span>查看</span></a></li>
+                        <li><a href="javascript:;" id="control"><span>管理</span></a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <ul class="deleted">
+            <li><input type="button" class="deleting" value="删&nbsp除"></li>
+            <li><input type="button" class="cancel" value="取&nbsp消"></li>
+        </ul>
+        <div class="search-box">
+            <div class="search-tab">
+                <a href="javascript:;"><span>Search</span></a>
+            </div>
+            <input type="text" class="search">
+            <div class="search-content">
+                <span>用户/日期</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="center w">
+        <div class="self">
+            <div class="frame">
+                <img src="./img/7.jpg" alt="">
+            </div>
+            <div class="record">
+                <div class="name">
+                    <span>0</span>
+                    <span>picture</span>
+                </div>
+    
+                <div><span>|</span></div>
+    
+                <div class="name">
+                    <span>0</span>
+                    <span>log</span>
+                </div>
+    
+                <div><span>|</span></div>
+    
+                <div class="name">
+                    <span>0</span>
+                    <span>comment</span>
+                </div>
+    
+            </div>
+            <div class="files">
+                <div class="intro">
+                    <span>Self-introduction</span>
+                </div>
+                <div>
+                    <p>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp这里是2021级0913班陈雨婷，一个活泼开朗，热爱交友的女生！课余喜欢跳舞,绘画；热爱运动，各种球类都有涉猎。
+                    </p>
+                    <p>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp专业方向目前为嵌入式，希望能够锻炼专业知识，也希望能和大家成为好朋友！！！
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="figure">
+            <div class="figures">
+                <ul id="fig">
+                    <li><a href="javascript:;"><img src="./img/1.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/2.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/3.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/1.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="change">
+                <li><a href="javascript:;" id="last"> < </a></li>
+                <li><a href="javascript:;" id="next"> > </a></li>
+            </div>
+        </div>
+
+        <div class="calendar">
+            <div id="day"></div>
+            <div id="month"></div>
+        </div>
+    </div>
+
+    <div class="tictactoe w">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div class="player">
+            <div class="player1">
+                <span>player1</span>
+            </div>
+            <div class="player2">
+                <span>player2</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="study w">
+        <div class="send">
+            <textarea name="text" id="text" placeholder="这里输入"></textarea>
+            <li><span>发&nbsp表</span></li>
+        </div>
+        <div class="old">
+            <div class="record1">
+                <div class="check">
+                    <input type="checkbox" name="items" class="checkbox" >
+                </div>
+                <div class="frame2">
+                    <img src="./img/7.jpg" alt="">
+                    <span>Agnes</span>
+                </div>
+                <div id="date">
+                    <span></span>
+                </div>
+                <div class="content">
+                    <span>这是一条说说~今天超级开心啦，好不容易做完了所有的招新题www虽然可能做的不是很完美，但是在这过程中确实学到了很多知识，收获了很多啦！中途也确实遇到了很多问题，也有一点点拖延症，但还是逼着自己把它做完了，看着自己做的东西还是有一点成就感的啦哈哈哈。总之不管能不能顺利加入工作室，我都还是会很感谢这一段时间的努力啦！  接下来不知道说点什么就让我水水叭，主要是为了测试这个展开和预览的功能www冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡冒泡</span>
+                </div>
+                <div class="spread">
+                    <input type="button" value="删&nbsp除" id="delete">
+                    <input type="button" value="评&nbsp论" id="comment">
+                    <!-- <input type="button" value="展&nbsp开" id="unfold"> -->
+                    <button id="unfold">展&nbsp开</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    
+</body>
+<script type="text/javascript" src="./js/tool.js"></script>
+<script type="text/javascript" src="./js/introduce.js"></script>
+<script type="text/javascript" src="./js/tictactoe.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="./js/comment.js"></script>
+
+</html>

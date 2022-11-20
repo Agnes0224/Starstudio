@@ -1,0 +1,43 @@
+.tictactoe{
+    width: 550px;
+    background-color: #f1f8fe;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+td{
+    border: rgb(133, 131, 131) 1px solid;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.player1, .player2{
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    border: grey 1px solid;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.fork{
+    color: rgb(246, 105, 83);
+}
+
+.circle{
+    color: rgb(156, 173, 239);
+}
